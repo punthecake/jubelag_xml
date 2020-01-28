@@ -13,7 +13,7 @@
    $price = $data->getElementsByTagName("price")->item(0)->nodeValue;
    $color = $data->getElementsByTagName("color")->item(0)->nodeValue;
    $supplier = $data->getElementsByTagName("supplier")->item(0)->nodeValue;
-   echo "<li>$ballpen_name
+   echo "<li>$name
             <ul>
                 <li>$price</li>
                 <li>$color</li>
