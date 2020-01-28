@@ -9,7 +9,7 @@
     <?php
  foreach( $content as $data )
  {
-   $name = $data->getElementsByTagName("ballpen_name")->item(0)->nodeValue;
+   $name = $data->getElementsByTagName("name")->item(0)->nodeValue;
    $price = $data->getElementsByTagName("price")->item(0)->nodeValue;
    $color = $data->getElementsByTagName("color")->item(0)->nodeValue;
    $supplier = $data->getElementsByTagName("supplier")->item(0)->nodeValue;
