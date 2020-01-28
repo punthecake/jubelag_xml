@@ -9,12 +9,14 @@
     <?php
  foreach( $content as $data )
  {
-   $title = $data->getElementsByTagName("ballpen_name")->ballpen(0)->nodeValue;
-   $link = $data->getElementsByTagName("price")->ballpen(0)->nodeValue;
+   $title = $data->getElementsByTagName("ballpen_name")->item(0)->nodeValue;
+   $link = $data->getElementsByTagName("price")->item(0)->nodeValue;
   
    echo "<li>$ballpen_name
             <ul>
                 <li>$price</li>
+                <li>$color</li>
+                <li>$supplier</li>
             </ul>
         </li>";
  }
