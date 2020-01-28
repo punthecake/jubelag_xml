@@ -1,6 +1,6 @@
 <?php
  $domOBJ = new DOMDocument();
- $domOBJ->load("https://jubelagxml.herokuapp.com/xml.php");//XML page URL
+ $domOBJ->load("https://jubelagxml.herokuapp.com/rss.php");//XML page URL
  
  $content = $domOBJ->getElementsByTagName("ballpen");
  
